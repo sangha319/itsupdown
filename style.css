@@ -16,3 +16,68 @@ p {
   color: #b6b6c2;
   font-size: 16px;
 }
+.container {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.archive-title {
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+}
+
+.archive-name {
+  font-size: 14px;
+  color: #cfcfe6;
+  margin-bottom: 16px;
+}
+
+.archive-desc {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #b6b6c2;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.menu-card {
+  display: block;
+  background: #ffffff;
+  color: #1a1a1a;
+  border-radius: 14px;
+  padding: 18px 16px;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.emoji {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.menu-title {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.menu-desc {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.5;
+}
