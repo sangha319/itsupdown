@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <title>Archive</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>POP Archive</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Hello Archive</h1>
-  <p>아카이빙 홈페이지 시작!</p>
+  <main class="container">
+
+    <section class="intro">
+      <h1 class="archive-title">POP ARCHIVE</h1>
+      <p class="archive-name">SANGHA</p>
+
+      <p class="archive-desc">
+        - 애칭은 '베이스'로 설정되어있습니다.
+      </p>
+    </section>
+
+    <section class="menu">
+
+      <a class="menu-card" href="chat.html">
+        <div class="emoji">💬</div>
+        <div class="menu-title">전체 메시지 보기</div>
+        <div class="menu-desc">
+          전체 기간 동안 보내진 메시지를<br>
+          시간 순서대로 확인할 수 있습니다.
+        </div>
+      </a>
+
+      <a class="menu-card" href="dates.html">
+        <div class="emoji">📅</div>
+        <div class="menu-title">날짜별로 보기</div>
+        <div class="menu-desc">
+          원하는 날짜를 선택해<br>
+          해당 날짜의 메시지를 볼 수 있습니다.
+        </div>
+      </a>
+
+      <a class="menu-card" href="chat.html?mode=first">
+        <div class="emoji">⏮</div>
+        <div class="menu-title">첫 메시지로 가기</div>
+        <div class="menu-desc">
+          첫 메시지로 감
+        </div>
+      </a>
+
+    </section>
+
+  </main>
 </body>
 </html>
