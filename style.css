@@ -154,4 +154,27 @@ p {
   line-height: 1.45;
   box-shadow: none; /* 🔥 그림자 제거 */
 }
+/* ===== POP Message Group ===== */
+
+.message-group {
+  margin-bottom: 10px;
+}
+
+.message-group .only {
+  margin-left: 38px; /* 프로필 자리만큼 밀기 */
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 9px 12px;
+  font-size: 14px;
+  line-height: 1.45;
+  margin-top: 4px;
+  max-width: 72%;
+}
+
+.time {
+  font-size: 11px;
+  color: #8a8a8a;
+  margin-left: 38px;
+  margin-top: 4px;
+}
 
