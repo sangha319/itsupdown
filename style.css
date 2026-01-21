@@ -192,3 +192,22 @@ p {
   color: #8a8a8a;
   white-space: nowrap;
 }
+/* ===== Sender + Time line ===== */
+
+.sender-line {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 2px;
+}
+
+.sender-line .sender {
+  font-size: 11px;
+  color: #666;
+}
+
+.sender-line .time {
+  font-size: 11px;
+  color: #8a8a8a;
+}
+
