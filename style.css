@@ -84,11 +84,11 @@ p {
 /* ===== POP Chat UI ===== */
 
 .chat-bg {
-  max-width: 420px;
+  max-width: 390px;
   margin: 0 auto;
-  background: #e9f1ff;
+  background: transparent;
   min-height: 100vh;
-  padding-bottom: 40px;
+  padding: 12px 0 40px;
 }
 
 .chat-header {
