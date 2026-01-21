@@ -177,4 +177,18 @@ p {
   margin-left: 38px;
   margin-top: 4px;
 }
+/* ===== Time next to bubble ===== */
 
+.message.has-time .bubble {
+  position: relative;
+  padding-right: 42px; /* 시간 자리 */
+}
+
+.message.has-time .time {
+  position: absolute;
+  right: 10px;
+  bottom: 6px;
+  font-size: 11px;
+  color: #8a8a8a;
+  white-space: nowrap;
+}
