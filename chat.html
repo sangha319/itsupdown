@@ -16,51 +16,20 @@
       <p class="chat-sub">POP ARCHIVE</p>
     </header>
 
-    <!-- 날짜 구분선 -->
-    <div class="date-divider">
-      2025년 12월 1일 월요일
+    <!-- 날짜 구분선 (나중에 JS로 바꿀 예정) -->
+    <div class="date-divider" id="dateDivider">
+      <!-- 날짜가 여기에 들어올 예정 -->
     </div>
 
-    <!-- 메시지 영역 -->
-    <div class="chat-area">
-
-  <!-- 같은 시간에 온 메시지 묶음 -->
-  <div class="message-group">
-
-    <div class="message">
-      <img class="avatar" src="https://via.placeholder.com/36">
-      <div class="bubble-wrap">
-        <div class="sender">SANGHA</div>
-        <div class="bubble">오늘은 살짝 쌀쌀하다</div>
-      </div>
+    <!-- 메시지 영역 (JS가 자동으로 채움) -->
+    <div class="chat-area" id="chatArea">
+      <!-- messages.json 기반 메시지 출력 -->
     </div>
-
-    <div class="bubble only">
-      하지만 왼손에는 아이스 아메리카노를 들고 있는 나
-    </div>
-
-    <div class="bubble only">tmi 있어</div>
-    <div class="bubble only">전기장판 샀어</div>
 
   </div>
 
-  <!-- 시간이 바뀐 다음 메시지 -->
-  <div class="message-group">
-
-  <div class="message has-time">
-    <img class="avatar" src="https://via.placeholder.com/36">
-    <div class="bubble-wrap">
-  <div class="sender-line">
-    <span class="sender">SANGHA</span>
-    <span class="time">14:05</span>
-  </div>
-  <div class="bubble">ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ</div>
-</div>
-
-</div>
-</div>
-
-  </div>
+  <!-- 메시지 렌더링 스크립트 -->
+  <script src="chat.js"></script>
 
 </body>
 </html>
